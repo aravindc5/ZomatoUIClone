@@ -1,6 +1,11 @@
-# zomatoui
+# Zomato UI
 
-A new Flutter application.
+Zomato App UI Clone using Flutter
+
+## Output
+
+![ZomatoUI](https://user-images.githubusercontent.com/30715919/92996672-eead7c80-f52a-11ea-8249-752599479044.gif)
+
 
 ## Getting Started
 
