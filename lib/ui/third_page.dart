@@ -97,7 +97,7 @@ class ThirdPage extends StatelessWidget {
           SliverToBoxAdapter(
             child: Container(
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
-              child: Text(
+              child: const Text(
                 'PLACES A LITTLE FURTHER AWAY',
                 style: const TextStyle(
                     color: Colors.grey,

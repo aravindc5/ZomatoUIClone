@@ -93,7 +93,7 @@ class HomePage extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(horizontal: 10),
                       child: const Text(
                         'ORDER AGAIN',
-                        style: TextStyle(
+                        style: const TextStyle(
                             color: Colors.grey,
                             fontSize: 14,
                             fontWeight: FontWeight.bold,
@@ -107,7 +107,7 @@ class HomePage extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(horizontal: 5),
                         child: const Text(
                           'view history',
-                          style: TextStyle(
+                          style: const TextStyle(
                               color: Colors.red,
                               fontSize: 13,
                               fontFamily: 'Roboto',
@@ -123,7 +123,7 @@ class HomePage extends StatelessWidget {
           SliverToBoxAdapter(
               child: Container(
             width: double.infinity,
-            height: MediaQuery.of(context).size.height * 0.25,
+            height: MediaQuery.of(context).size.height * 0.26,
             child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: hotels.length,

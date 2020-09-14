@@ -85,7 +85,7 @@ class SecondPage extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
+                  const Text(
                     'COLLECTIONS',
                     style: const TextStyle(
                         color: Colors.grey,
@@ -93,7 +93,7 @@ class SecondPage extends StatelessWidget {
                         fontSize: 15,
                         fontWeight: FontWeight.bold),
                   ),
-                  Text(
+                  const Text(
                     'See all',
                     style: TextStyle(
                         color: Colors.red,
